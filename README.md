@@ -13,3 +13,20 @@ And so, I did the following :
 - Re-evaluated the model performance using cross-validation for each training dataset.
 - Tested the model with the 3 test datasets obtained above.
 - Printed out performance differences between the 3 datasets and choose the better one.
+
+
+2. Fraud Detection Project
+
+I tried developing a predictive model to identify fraudulent transactions in bank accounts.
+
+Steps taken :
+
+1. Data pre-processing : Handling Missing Values -> Statistical Aggregations -> Multicollinearity Evaluation -> Normality Testing (Shapiro-Wilk)
+
+2. Picking the model : Model Selection (Supervised Classification) -> Training -> Cross-validation
+
+3. Model evaluation : Confusion Matrix -> Performance Metrics (precision, recall, ROC AUC, etc.)
+
+4. Model tuning : Checking for over/underfitting and imbalance -> Hyperparameter Tuning -> Applying techniques for hyperparameter optimization (like Grid Search)
+
+5. Final model selection : Comparison
